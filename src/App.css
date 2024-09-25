@@ -1,0 +1,106 @@
+.container {
+    background-color: rgb(214, 234, 247);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 80vw;
+    height: 80vh;
+    margin: auto;
+    margin-top: 10vh;
+    border: solid 2px lightskyblue;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.466);
+}
+
+.flex {
+    display: flex;
+    justify-content: center; /* Centraliza os elementos no eixo horizontal */
+    margin: 0 auto;
+}
+
+h1, h3 {
+    margin: 0;
+    text-align: center;
+    color: rgb(54, 54, 54);
+}
+h2{text-align: center;}
+h1 {
+    margin: 30px 0;
+}
+
+input, select, .button, span {
+    margin-bottom: 10px;
+    width: 60vw;
+}
+
+input, select {
+    height: 35px;
+    border: rgb(0, 153, 255) solid 1px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+
+ button {
+    height: 35px;
+    width: 100px;
+    background-color: rgb(41, 116, 255);
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+.button{
+    height: 35px;
+    padding: 5px 10px;
+    width: fit-content;
+    background-color: rgb(41, 116, 255);
+    border-radius: 4px;
+    border: none;
+    color: white;
+}
+.sprints {
+    background-color: rgb(200, 226, 243);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around; /* Espaça as colunas igualmente */
+    width: 100%;
+}
+
+.sprint {
+    width: 30%; /* Define uma largura fixa para as colunas */
+    padding: 15px;
+}
+
+.colunas {
+    height: 300px;
+    display: flex;
+    flex-direction: column; /* Organiza as tarefas verticalmente */
+}
+
+.tarefas {
+    display: flex;
+    flex-direction: column; /* Organiza as tarefas verticalmente */
+    background-color: rgb(230, 248, 255);
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    height: 300px;
+    overflow-y: auto; /* Permite rolagem vertical se necessário */
+}
+
+.tarefa-item {
+    display: flex;
+    justify-content: space-between; /* Espaça o título e o botão */
+    align-items: center; /* Alinha verticalmente */
+    margin-bottom: 5px; /* Espaço entre as tarefas */
+}
+
+.titleTask {
+    padding: 5px 0;
+    width: 100%;
+    border-bottom: 1px solid rgb(124, 192, 255);
+}
+.deitado{
+    display: flex;
+    justify-content: space-around; /* Espaça as colunas igualmente */
+    width: 100%;
+}
